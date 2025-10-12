@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            justify-content:space-between;
+            align-items:center;
+            font-size:larger;
+            padding-top: 10px;
+            position: fixed;
+            position: sticky;
+        
+        }
+        span{
+            
+            justify-content: space-between;
+            padding-left: 10px;
+            align-items: center;
+        }
+ 
+        body{
+            background-color: black;
+            color: white;
+        }
+      
+        ol{
+            list-style-type: none;
+            padding-right: 0px;
+            position: fixed;
+            left:0px;
+            width:100px;
+            text-align: center;
+            font-size: larger;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            font-size:x-large;
+        }
+        li{
+            margin-top: 30px;
+            margin-bottom: 20px;
+            position: relative;
+            font-size: large;
+
+        }
+        .list{
+             align-items: left;
+            padding-right: 0px;
+            margin-left: 0%;
+            justify-content: justify;
+            
+        }
+        .first{
+            display: grid;
+            grid-template-columns: 0.5fr 2fr;
+          
+        }
+        main{
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .img{
+            border-radius: 90px;
+        }
+        .body{
+            display: grid;
+            grid-template-columns: 0.6fr 2fr;
+        }
+        img{
+            border-radius: 20px;
+        }
+        .popular-videos{
+            display: grid;
+            grid-template-columns: 0.5fr 0.5fr 0.5fr 5fr 5fr;
+        }
+        figcaption{
+            font-size:15px;
+        }
+        .boader{
+            border-bottom: 3px solid red;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            border-radius: 10px;
+            background-color: rgb(229, 227, 241);
+            color: black;
+        }
+         .videos div{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            margin-right: 2px;
+        }
+         
+
+
+        iframe{
+            width: 230px;
+            height: 120px;
+
+           
+        }  
+              .popular-videos div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            margin-right: 2px;
+            gap:10px;
+        }
+        .body div{  
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .search{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(65, 63, 63);
+            border-radius: 20px;
+            width: 500px;
+            height: 40px;
+            background-color: rgb(65, 63, 63)
+        }
+        input{
+            background-color: rgb(65, 63, 63);
+            border: none;
+            color: white;
+            width: 350px;
+            height: 40px;
+            text-align: left;
+            border-radius: 20px 0px 0px 20px;
+            font-size: medium;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            background-color: rgb(65, 63, 63);
+            border: none;
+            
+            width: 400px;
+            height: 40px;
+            text-align: left;
+            border-radius: 20px 0px 0px 20px;
+            font-size: medium;
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <div><nav>
+            <span class="bi bi-list"></span>
+            <span class="bi bi-youtube" style="color:red; font-size: larger;" ></span><span>Youtube</span>
+        </nav></div>
+        <div class="search"><nav>
+            <button > <input type="search" placeholder="search">  </button>
+            </nav>
+            <nav>
+            <span class="bi bi-search" style="background-color: rgb(65, 63, 63); border-radius:0px 20px 20px 0px; border:1px; "></span>
+            <span class="bi bi-mic" style="background-color:rgb(65, 63, 63); border:1px; border-radius: 20px; "></span>
+        </nav></div>
+        <div><nav>
+            <span style="background-color:rgb(65, 63, 63); border-radius: 10px; text-align: center;">+ Create</span>
+            <span class="bi bi-bell"><sup style="border: red solid 1px; background-color: red; border-radius: 10px; ">9+</sup></span>
+            <span class="bi bi-person"></span>
+        </nav></div>
+    </header>
+    <ol>
+        <div class="list">
+            <li><span class="bi bi-house-door">
+                  <br>Home</span></li>
+            <li><span class="bi bi-youtube"><br>Shorts</span></li>
+            <li><span class="bi bi-youtube"><br>Subscriptions</span></li>
+            <li><span class="bi bi-person-circle"><br>You</span></li>
+            <li><span class="bi bi-download"><br>Download</span></li>
+        </div>
+    </ol>
+    <main>
+        <div class="first">
+            <span><img src="https://yt3.googleusercontent.com/mXREkBuLGPj_1h5X1QaIqOfJmGiSlHTrVZQmK8R2BSmZppCmSVr43M9MQEyNbzGUHfEr45zz-Q=s160-c-k-c0x00ffffff-no-rj" class="img"></span>
+            <span><h1>PW Institute of Innovation</h1>@PW-IOI | 27.5k subscribers | 467 videos<br>Welcome to PW IOI.The future of education is here.
+            <br><a href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbmFnS3hyTDFrNVB4X19WbTV0VXkzWDcxVXR0UXxBQ3Jtc0tudFhxRU5zRWp4dnpzLThZV2ZVdG9KUFRJQVFNMjdZUmQteDhadmVyYXJLRFVVV3AwODBRMGZBU3JtaTFuRjUxS0Z0LXRYNVpGQ1B2QmNxcVZJN21pQjI3T0RtSXRoeGZ3X1JjbXBWN3ZSWUdIcEQwRQ&q=https%3A%2F%2Fpwioi.com%2Fcee-exam%3Futm_source...">
+                pwioi.com/cee-exam?utm_source...
+            </a>and 6 more links
+               </span>
+        </div>
+        <div>
+            <ul>
+                <li class=" boader">Home</li>
+                <li  class=" boader">Videos</li>
+                <li  class=" boader">Shorts</li>
+                <li  class=" boader">Live</li>
+                <li  class=" boader">Playlist</li>
+                <li  class=" boader">Posts</li>
+                <li class="bi bi-search"></li>
+            </ul>
+        </div>
+        <hr><br>
+        <div class="body">
+            <span><a href="https://www.youtube.com/watch?v=GnfEckzzgm8"><img src="https://i.ytimg.com/vi/GnfEckzzgm8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLANmSrCzJzr6Ems5KdfcTkTZk4hqg"></a></span>
+            <span><h3>BIGGEST ANNOUNCEMENT in IOI History | LIVE with <br>@TharunSpeaks</h3>
+            <br>PW Institute of Innovation | 47K Views|streamed 2 months ago<br>
+             Big Announcement by @TharunSpeaks 10 deserving students now have the chance to get their entire 1st-year fees waived off – yes, 100% FREE! Want to be one of them? Register for CEE...</span>
+        </div>
+        <br>
+        <hr>
+        <h2>Popular Videos</h2>
+        <div class="popular-videos">
+            <div>
+    <iframe src="https://www.youtube.com/embed/Kz0Wu47Fufg"></iframe>
+   <div>
+    <iframe src="https://www.youtube.com/embed/9Zqoj28Z9aY"></iframe>
+   </div>
+   <div>
+    <iframe src="https://www.youtube.com/embed/TLv8rYYfLxY"></iframe>
+   </div>
+   <div>
+    <iframe src="https://www.youtube.com/embed/CdLObg-9Gmk"></iframe>
+   </div>
+   <div>
+    <iframe src="https://www.youtube.com/embed/CdLObg-9Gmk"></iframe>
+   </div>
+   <div>
+    <iframe src="https://www.youtube.com/embed/GyBwUTpJ-is"></iframe>
+   </div>
+   
+   <div>
+    <iframe src="https://www.youtube.com/embed/scX-jneH0hU"></iframe>
+   </div>
+   <div>
+    <iframe src="https://www.youtube.com/embed/UnCrj9xJzAU"></iframe>
+   </div>
+   <div>
+    <iframe src="https://www.youtube.com/embed/UnCrj9xJzAU"></iframe>
+   </div>
+   <div>
+    <iframe src="https://www.youtube.com/embed/UnCrj9xJzAU"></iframe>
+   </div>
+   </div>
+   </section>
+        </div>
+
+
+    </main>
+</body>
+</html>
